@@ -1,0 +1,19 @@
+# Task 3 - Cleaning Data - Oasis Infobyte
+
+**Objective:** Demonstrate professional-level data cleaning skills by transforming a messy dataset into a clean, analysis-ready dataset.
+
+**Tech Stack:** Python, pandas, numpy, Jupyter Notebook
+
+**Dataset Used:** Messy Dataset for Data Cleaning Practice from Kaggle (Titanic Dataset)
+
+**Steps Covered:**
+1. Data Quality Report (nulls, duplicates, dtype issues)
+2. Missing Data Handling (mean/median/mode imputation with justification)
+3. Duplicate Removal
+4. Standardisation (Male/male/M -> Male, date -> datetime)
+5. Outlier Detection (IQR Method - Capping)
+6. Data Type Correction (ID as string, date as datetime, salary as float)
+7. Before vs After Summary Table
+8. Cleaned CSV Saved
+
+**Author:** Shama Parveen
