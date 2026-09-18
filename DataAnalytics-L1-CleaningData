@@ -1,19 +1,35 @@
-# Task 3 - Cleaning Data - Oasis Infobyte
+# Data Cleaning - Messy Dataset
 
-**Objective:** Demonstrate professional-level data cleaning skills by transforming a messy dataset into a clean, analysis-ready dataset.
+### Objective
+The objective of this project is to demonstrate professional-level data cleaning skills by transforming a raw, messy dataset into a clean, structured, and analysis-ready dataset as per Oasis Infobyte Task 3 checklist.
 
-**Tech Stack:** Python, pandas, numpy, Jupyter Notebook
+### Dataset
+The dataset used is a messy dataset for data cleaning practice from Kaggle. The dataset contains inconsistent formatting, missing values, duplicate records, data type issues, and outlier values that need to be cleaned.
 
-**Dataset Used:** Messy Dataset for Data Cleaning Practice from Kaggle (Titanic Dataset)
+### Tools & Technologies
+- Python
+- Google Colab
+- Pandas
+- NumPy
 
-**Steps Covered:**
-1. Data Quality Report (nulls, duplicates, dtype issues)
-2. Missing Data Handling (mean/median/mode imputation with justification)
-3. Duplicate Removal
-4. Standardisation (Male/male/M -> Male, date -> datetime)
-5. Outlier Detection (IQR Method - Capping)
-6. Data Type Correction (ID as string, date as datetime, salary as float)
-7. Before vs After Summary Table
-8. Cleaned CSV Saved
+### Analysis Performed
+- Data Quality Report - Count of nulls per column, duplicate rows, data type issues, value range anomalies
+- Missing Data Handling - Mean/Median/Mode imputation with justification in markdown
+- Duplicate Removal - Identification and removal of duplicate rows
+- Standardisation - Normalising inconsistent formatting (Male/male/M -> Male, date formats -> datetime)
+- Outlier Detection - Using IQR method to detect and cap outliers
+- Data Type Correction - Ensuring correct dtype (IDs as string, dates as datetime, monetary as float)
+- Before vs After Summary - Comparison table of null count, duplicate count, row count
+- Saving Cleaned Dataset - Exporting final dataset to new CSV file
 
-**Author:** Shama Parveen
+### Key Insights
+The cleaning process helps to understand the quality issues in raw data and shows how to systematically handle null values, duplicates, inconsistent formats and outliers to make the data ready for analysis. After cleaning, data accuracy and usability improved significantly.
+
+### Project Files
+- messy_dataset.csv - Original messy dataset used for cleaning
+- cleaned_dataset.csv - Cleaned and final dataset after processing
+- Data_Cleaning.ipynb - Jupyter notebook containing all cleaning steps
+- README.md - Project description and details
+
+### Conclusion
+This project demonstrates how Python and data cleaning techniques can be used to convert a dirty dataset into a high-quality dataset, which is a crucial first step before any Data Analysis or Machine Learning model.
