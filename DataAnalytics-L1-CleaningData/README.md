@@ -1,0 +1,35 @@
+Data Cleaning - Messy Dataset
+
+Objective
+The objective of this project is to demonstrate professional-level data cleaning skills by transforming a raw, messy dataset into a clean, structured, and analysis-ready dataset as per Oasis Infobyte Task 3 checklist.
+
+Dataset
+The dataset used is a messy dataset for data cleaning practice from Kaggle. The dataset contains inconsistent formatting, missing values, duplicate records, data type issues, and outlier values that need to be cleaned.
+
+Tools & Technologies
+- Python
+- Google Colab
+- Pandas
+- NumPy
+
+Analysis Performed
+- Data Quality Report - Count of nulls per column, duplicate rows, data type issues, value range anomalies
+- Missing Data Handling - Mean/Median/Mode imputation with justification in markdown
+- Duplicate Removal - Identification and removal of duplicate rows
+- Standardisation - Normalising inconsistent formatting (Male/male/M -> Male, date formats -> datetime)
+- Outlier Detection - Using IQR method to detect and cap outliers
+- Data Type Correction - Ensuring correct dtype (IDs as string, dates as datetime, monetary as float)
+- Before vs After Summary - Comparison table of null count, duplicate count, row count
+- Saving Cleaned Dataset - Exporting final dataset to new CSV file
+
+Key Insights
+The cleaning process helps to understand the quality issues in raw data and shows how to systematically handle null values, duplicates, inconsistent formats and outliers to make the data ready for analysis. After cleaning, data accuracy and usability improved significantly.
+
+Project Files
+- messy_dataset.csv - Original messy dataset used for cleaning
+- cleaned_dataset.csv - Cleaned and final dataset after processing
+- Data_Cleaning.ipynb - Jupyter notebook containing all cleaning steps
+- README.md - Project description and details
+
+### Conclusion
+This project demonstrates how Python and data cleaning techniques can be used to convert a dirty dataset into a high-quality dataset, which is a crucial first step before any Data Analysis or Machine Learning model.
